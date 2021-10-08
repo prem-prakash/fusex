@@ -1,0 +1,3 @@
+%{
+  "fuse": {:hex, :fuse, "2.5.0", "71afa90be21da4e64f94abba9d36472faa2d799c67fedc3bd1752a88ea4c4753", [:rebar3], [], "hexpm", "7f52a1c84571731ad3c91d569e03131cc220ebaa7e2a11034405f0bac46a4fef"},
+}
