@@ -18,6 +18,8 @@ defmodule Fusex do
         {:reset, fuse_refresh_miliseconds}
       })
 
+    Enum.each([:sasl, :fuse], &Application.ensure_started(&1, :permanent))
+
     :fuse.install(name, {
       {:standard, max_failures, max_failures_interval},
       {:reset, fuse_refresh_miliseconds}
